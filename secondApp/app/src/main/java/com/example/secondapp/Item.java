@@ -1,7 +1,7 @@
 package com.example.secondapp;
 
-//import android.support.v7.app.AppCompatActivity;
-
+// Эту строку заменить import android.support.v7.app.AppCompatActivity;
+// на эту import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
