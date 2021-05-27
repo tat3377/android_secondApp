@@ -7,20 +7,25 @@
     tools:context=".AddUserActivity">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EFEEC6"
+        android:orientation="vertical" />
 
-<TextView
-    android:id="@+id/textView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="50dp"
-    android:text="Форма добавления пользователя"
-    android:textSize="24sp"
-    android:textStyle="bold"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Добавьте пользователя"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-<EditText
+    <EditText
     android:id="@+id/editTextName"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -29,6 +34,8 @@
     android:ems="10"
     android:inputType="textPersonName"
     android:hint="Имя"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -42,6 +49,8 @@
     android:ems="10"
     android:inputType="textPersonName"
     android:hint="Фамилия"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/editTextName" />
@@ -55,19 +64,22 @@
     android:ems="10"
     android:inputType="textPersonName"
     android:hint="Телефон"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/editTextLastName"
     tools:ignore="TextFields" />
 
-<Button
-    android:id="@+id/insertUserBtn"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Добавить пользователя"
-    android:textSize="24sp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+    <Button
+        android:id="@+id/insertUserBtn"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4F81CF"
+        android:text="Добавить пользователя"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
 </androidx.constraintlayout.widget.ConstraintLayout>
