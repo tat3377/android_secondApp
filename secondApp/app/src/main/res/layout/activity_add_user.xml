@@ -75,7 +75,7 @@
         android:id="@+id/insertUserBtn"
         android:layout_width="370dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#4F81CF"
+        android:backgroundTint="#CDDC39"
         android:text="Добавить пользователя"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
