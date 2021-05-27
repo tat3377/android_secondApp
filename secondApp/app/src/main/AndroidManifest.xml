@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SecondApp">
-        <activity android:name=".SingleFragmentActivity"></activity>
+        <activity android:name=".UserPagerActivity"></activity>
+        <activity android:name=".SingleFragmentActivity" />
         <activity android:name=".AddUserActivity" />
         <activity android:name=".Item" />
         <activity android:name=".MainActivity">
